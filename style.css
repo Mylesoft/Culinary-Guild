@@ -1,0 +1,52 @@
+nav a {
+    text-decoration: none;
+    color: black;
+}
+nav ul {
+     display: flex;
+     gap: 40px;
+} 
+nav {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 30px;
+}
+.about {
+    color:black;
+    font-size: x-large;
+} 
+body {
+    font-size: large;
+    background-color: lightgray;
+}
+.services {
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+    box-shadow: 2px;
+    transition: 0.3s;
+    cursor: pointer;
+    padding: 30px;
+}
+.services:hover {
+    transform: scale(1.02);
+}
+div h1 {
+    color: darkorange;
+} 
+.phone {
+    background-color: black;
+    color: white;
+    border-radius: 2px ;
+    box-shadow: 2px;
+    transition: 0.3s;
+    cursor: pointer;
+    padding: 30px;
+}
+.phone:hover {
+    transform: scale(1.02);
+} 
+div {
+    max-width: 800px;
+    margin: 30px auto; 
+}

@@ -3,38 +3,158 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Services - The Culinary Guild</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <!-- NAVBAR -->
-    <nav>
-        <h2>🍽️ The Culinary Guild</h2>
-        <ul>
+    <nav class="navbar">
+        <h2 class="logo">🍽️ The Culinary Guild</h2>
+        <ul class="nav-links">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
+            <li><a href="services.html" class="active">Services</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
 
-    <hr>
+    <main class="services-page">
+        
+        <header class="section-header">
+            <h1>Our Services</h1>
+            <p>Empowering Caterers & Serving the Community in Kenya</p>
+        </header>
 
-    <!-- MAIN CONTENT -->
-    <main>
-        <h1>Our Services</h1>
-        <p>This is the services page. Content coming soon.</p>
+        <section class="lead-sharing-container">
+            <div class="content-box">
+                <h2>The Lead Sharing Network</h2>
+                <p>Never turn away a client. Our private "Overflow" system allows Guild members to pass leads they can't fulfill to trusted peers.</p>
+                
+                <div class="process-steps">
+                    <div class="step">
+                        <span class="step-num">01</span>
+                        <h4>Post Lead</h4>
+                        <p>Share event details to the member board.</p>
+                    </div>
+                    <div class="step">
+                        <span class="step-num">02</span>
+                        <h4>Peer Match</h4>
+                        <p>An available member claims the job.</p>
+                    </div>
+                    <div class="step">
+                        <span class="step-num">03</span>
+                        <h4>Earn Credit</h4>
+                        <p>Build your reputation for future referrals.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="education-section">
+            <div class="section-header">
+                <h2>Guild Education</h2>
+                <p>Master your craft through professional mentorship and certification.</p>
+            </div>
+        
+            <div class="education-grid">
+                <div class="edu-card">
+                    <div class="edu-content">
+                        <span class="edu-category">Workshop</span>
+                        <h3>Plating & Presentation</h3>
+                        <p>A hands-on masterclass on modern food styling and high-end banquet aesthetics.</p>
+                        <span class="edu-date">Next Session: April 15th</span>
+                    </div>
+                    <a href="/education.1" class="edu-link">Enroll Now</a>
+                </div>
+        
+                <div class="edu-card">
+                    <div class="edu-content">
+                        <span class="edu-category">Certification</span>
+                        <h3>Food Safety Standards</h3>
+                        <p>Earn your Guild-Certified Health & Safety badge to display on your client proposals.</p>
+                        <span class="edu-date">Online & Practical</span>
+                    </div>
+                    <a href="education.2" class="edu-link">Get Certified</a>
+                </div>
+        
+                <div class="edu-card">
+                    <div class="edu-content">
+                        <span class="edu-category">Business</span>
+                        <h3>Catering Accounting</h3>
+                        <p>Learn how to price your menus for profit and manage large-scale event budgets.</p>
+                        <span class="edu-date">Member Exclusive</span>
+                    </div>
+                    <a href="education.3" class="edu-link">Enroll Now</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="library-section">
+            <div class="section-header">
+                <h2>The Equipment Library</h2>
+                <p>Professional assets available for member rental.</p>
+            </div>
+            
+            <div class="inventory-grid">
+                <div class="item-card">
+                    <span class="badge">Available</span>
+                    <h3>Industrial Chafing Set</h3>
+                    <span class="price">Ksh 500 / Day</span>
+                    <a href="#" class="btn-outline">Reserve Gear</a>
+                </div>
+                <div class="item-card">
+                    <span class="badge">Available</span>
+                    <h3>Crystal Glassware (50pc)</h3>
+                    <span class="price">Ksh 2,500 / Day</span>
+                    <a href="#" class="btn-outline">Reserve Gear</a>
+                </div>
+                <div class="item-card">
+                    <span class="badge">Available</span>
+                    <h3>Premium Table Linens</h3>
+                    <span class="price">Ksh 150 / Piece</span>
+                    <a href="#" class="btn-outline">Reserve Gear</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="directory-section">
+            <div class="section-header">
+                <h2>Hire a Guild Caterer</h2>
+                <p>Browse our vetted experts for your next event.</p>
+            </div>
+
+            <div class="caterer-grid">
+                <article class="caterer-card">
+                    <div class="card-info">
+                        <span class="tag">Wedding & Gala</span>
+                        <h3>Savory Harmony</h3>
+                        <p>Specialists in Swahili-Fusion fine dining.</p>
+                        <a href="#" class="btn-solid">View Profile</a>
+                    </div>
+                </article>
+
+                <article class="caterer-card">
+                    <div class="card-info">
+                        <span class="tag">Corporate</span>
+                        <h3>The Executive Table</h3>
+                        <p>High-efficiency catering for board meetings.</p>
+                        <a href="#" class="btn-solid">View Profile</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
     </main>
 
-     <hr>
-     
- <!-- FOOTER -->
-    <footer>
-        <p>📍 Nairobi, Kenya</p>
-        <p>📞 +254 743 993 715</p>
-        <p>✉️ info@culinaryguild.co.ke</p>
-        <p>&copy; 2026 The Culinary Guild. All rights reserved.</p>
+    <footer class="footer">
+        <div class="footer-content">
+            <p>Nairobi, Kenya</p>
+            <p>+254 743 993 715</p>
+            <p>info@culinaryguild.co.ke</p>
+            <p>&copy; 2026 The Culinary Guild. All rights reserved.</p>
+        </div>
     </footer>
+
 </body>
 </html>

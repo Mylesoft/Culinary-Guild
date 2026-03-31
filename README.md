@@ -54,7 +54,7 @@ This project was built as a collaborative effort:
 ## 💻 How to Run Locally
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/Mylesoft/Culinary-Guild.git](https://github.com/Mylesoft/Culinary-Guild.git)
+   git clone https://github.com/Mylesoft/Culinary-Guild.git
 
 ---
 

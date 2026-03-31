@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>The Culinary Guild</title>
 </head>
 <body>
@@ -18,26 +19,124 @@
         </ul>
     </nav>
 
-    <hr>
+    <!-- HERO / HEADER WITH IMAGES -->
+    <header class="hero">
+        <div class="slides">
+            <div class="slide active">
+                <img src="catering-service.webp" alt="Catering Service">
+            </div>
+            <div class="slide">
+                <img src="1c682c1e2eb0b78a.jpeg" alt="Food Buffet">
+            </div>
+            <div class="slide">
+                <img src="GES624-Catering-Professional-935x572.jpg" alt="Professional Catering">
+            </div>
+        </div>
+        <div class="hero-text">
+            <h1>Welcome to The Culinary Guild</h1>
+            <p>Premium Catering &amp; Culinary Services in Nairobi, Kenya</p>
+            <a href="services.html">View Our Services</a>
+            &nbsp;
+            <a href="contact.html">Book Now</a>
+        </div>
+    </header>
 
     <!-- MAIN CONTENT -->
     <main>
-        <h1>Welcome to The Culinary Guild</h1>
-        <p>We provide premium catering and culinary services in Nairobi, Kenya.</p>
-        <a href="services.html">View Our Services</a>
-        &nbsp;
-        <a href="contact.html">Contact Us</a>
-    </main>
 
-    <hr>
+        <hr>
+
+        <!-- WHY CHOOSE US -->
+        <h2>Why Choose Us?</h2>
+        <ul>
+            <li>🍽️ Professional chefs with years of experience</li>
+            <li>🌍 Serving Nairobi and surrounding areas</li>
+            <li>✅ Fresh, high quality ingredients</li>
+            <li>🎉 Perfect for weddings, corporate events and private dinners</li>
+            <li>⏰ Timely and reliable service</li>
+        </ul>
+
+        <hr>
+
+        <!-- WHAT WE OFFER - CARDS -->
+        <h2>What We Offer</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>🎊 Wedding Catering</h3>
+                <p>We make your special day unforgettable with beautifully presented meals tailored to your taste and budget.</p>
+                <a href="services.html">Learn More</a>
+            </div>
+            <div class="card">
+                <h3>🏢 Corporate Events</h3>
+                <p>From boardroom lunches to large company conferences, we handle all your corporate catering needs professionally.</p>
+                <a href="services.html">Learn More</a>
+            </div>
+            <div class="card">
+                <h3>🍷 Private Dinners</h3>
+                <p>Enjoy an intimate dining experience at home or your preferred venue with our private chef service.</p>
+                <a href="services.html">Learn More</a>
+            </div>
+            <div class="card">
+                <h3>🚚 Food Delivery</h3>
+                <p>Can't come to us? We bring the experience to you. Order freshly prepared meals delivered to your doorstep.</p>
+                <a href="services.html">Learn More</a>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- TESTIMONIALS -->
+        <h2>What Our Clients Say</h2>
+
+        <blockquote>
+            <p>"The food was absolutely amazing! Our wedding guests could not stop complimenting the meals."</p>
+            <footer>— Sarah M., Wedding Client</footer>
+        </blockquote>
+
+        <blockquote>
+            <p>"Very professional and punctual. The Culinary Guild made our company event a huge success."</p>
+            <footer>— James K., Corporate Client</footer>
+        </blockquote>
+
+        <blockquote>
+            <p>"Best private dinner experience I have ever had. Highly recommend!"</p>
+            <footer>— Amina W., Private Dinner Client</footer>
+        </blockquote>
+
+        <hr>
+
+        <!-- CALL TO ACTION -->
+        <h2>Ready to Book?</h2>
+        <p>Contact us today and let us make your next event truly special.</p>
+        <a href="contact.html">Book Now</a>
+
+    </main>
 
     <!-- FOOTER -->
     <footer>
         <p>📍 Nairobi, Kenya</p>
         <p>📞 +254 743 993 715</p>
         <p>✉️ info@culinaryguild.co.ke</p>
-        <p>&copy; 2025 The Culinary Guild. All rights reserved.</p>
+        <p>&copy; 2026 The Culinary Guild. All rights reserved.</p>
     </footer>
+
+    <script>
+        const slides = document.querySelectorAll('.slide');
+        let current = 0;
+
+        function showSlide(index) {
+            slides.forEach(slide => slide.classList.remove('active'));
+            slides[index].classList.add('active');
+        }
+
+        function nextSlide() {
+            current = (current + 1) % slides.length;
+            showSlide(current);
+        }
+
+        setInterval(nextSlide, 3000);
+    </script>
 
 </body>
 </html>

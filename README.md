@@ -30,7 +30,6 @@ A public-facing marketplace where clients can browse vetted Guild members, view 
 ##  Visual Identity
 The project follows a minimalist, premium aesthetic to reflect professional excellence:
 * **Primary Colors:** White , Black (#1A1A1A)
-* **Secondary Colors:** Black
 * **Accent Color:** Saddle Brown  - Representing the warmth of the hearth and artisanal wood.
 * **Typography:** Playfair Display (Serif) for headings and Source Sans Pro for readability.
 

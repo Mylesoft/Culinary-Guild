@@ -5,6 +5,8 @@
 The Culinary Guild is a collaborative digital platform designed to transform the local catering industry from a landscape of isolated competitors into a unified professional alliance. This project serves as a central hub for resource sharing, lead generation, and elite culinary education.
 
 ---
+**Live Demo:** [View Deployed Project](https://mylesoft.github.io/Culinary-Guild)
+---
 
 ##  Core Features
 
@@ -40,6 +42,13 @@ The project follows a minimalist, premium aesthetic to reflect professional exce
 * **Git/GitHub:** Collaborative version control.
 
 ---
+##  Project Structure
+* Home
+* About
+* Services
+* Contact
+
+---
 
 ##  The Development Team
 This project was built as a collaborative effort:
@@ -51,7 +60,7 @@ This project was built as a collaborative effort:
 
 ---
 
-## 💻 How to Run Locally
+##  How to Run Locally
 1. Clone the repository:
    ```bash
    git clone https://github.com/Mylesoft/Culinary-Guild.git

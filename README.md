@@ -1,4 +1,4 @@
-# 🍽️ The Culinary Guild
+#  The Culinary Guild
 
 **Empowering the Professional Caterers of Kenya.**
 

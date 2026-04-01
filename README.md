@@ -1,9 +1,11 @@
-# 🍽️ The Culinary Guild
+#  The Culinary Guild
 
 **Empowering the Professional Caterers of Kenya.**
 
 The Culinary Guild is a collaborative digital platform designed to transform the local catering industry from a landscape of isolated competitors into a unified professional alliance. This project serves as a central hub for resource sharing, lead generation, and elite culinary education.
 
+---
+**Live Demo:** [View Deployed Project](https://mylesoft.github.io/Culinary-Guild)
 ---
 
 ##  Core Features
@@ -28,8 +30,7 @@ A public-facing marketplace where clients can browse vetted Guild members, view 
 ##  Visual Identity
 The project follows a minimalist, premium aesthetic to reflect professional excellence:
 * **Primary Colors:** White , Black (#1A1A1A)
-* **Secondary Colors:** Black
-* **Accent Color:** Saddle Brown  - Representing the warmth of the hearth and artisanal wood.
+* **Accent Color:** Orange  - Representing the warmth of the hearth and artisanal wood.
 * **Typography:** Playfair Display (Serif) for headings and Source Sans Pro for readability.
 
 ---
@@ -38,6 +39,13 @@ The project follows a minimalist, premium aesthetic to reflect professional exce
 * **HTML:** Semantic structure for accessibility.
 * **CSS:** Custom styling with CSS Grid and Flexbox for a responsive mobile experience.
 * **Git/GitHub:** Collaborative version control.
+
+---
+##  Project Structure
+* Home
+* About
+* Services
+* Contact
 
 ---
 
@@ -51,7 +59,7 @@ This project was built as a collaborative effort:
 
 ---
 
-## 💻 How to Run Locally
+##  How to Run Locally
 1. Clone the repository:
    ```bash
    git clone https://github.com/Mylesoft/Culinary-Guild.git
